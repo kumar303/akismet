@@ -1,7 +1,6 @@
 :Version: 0.2.1
 :Copyright: Michael Foord 2005-2009
 :Home: http://www.voidspace.org.uk/python/modules.shtml#akismet
-:Akismet: http://akismet.com
 
 A python interface to the `Akismet <http://akismet.com>`_ API.
 This is a web service for blocking SPAM comments to blogs - or other online 
@@ -9,6 +8,10 @@ services.
 
 **This is a quick fix to get Akismet working with non-ascii Unicode
 data. Please check PyPI if there is an official release.  -Kumar**
+
+::
+
+  pip install git+git://github.com/kumar303/akismet.git#egg=akismet
 
 You will need a Wordpress API key, from `wordpress.com <http://wordpress.com>`_.
 
