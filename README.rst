@@ -1,16 +1,14 @@
-# Version 0.2.1
-# Copyright Michael Foord 2005-2009
+:Version: 0.2.0
+:Copyright: Michael Foord 2005-2009
+:Home: http://www.voidspace.org.uk/python/modules.shtml#akismet
+:Akismet: http://akismet.com
 
-# http://www.voidspace.org.uk/python/modules.shtml#akismet
-# http://akismet.com
+A python interface to the `Akismet <http://akismet.com>`_ API.
+This is a web service for blocking SPAM comments to blogs - or other online 
+services.
 
-# Released subject to the BSD License
-# See http://www.voidspace.org.uk/python/license.shtml
-
-.. note:: 
-
-  This is a quick fix to get Akismet working with non-ascii Unicode
-  data. Please check PyPI if there is an official release.  -Kumar
+**This is a quick fix to get Akismet working with non-ascii Unicode
+data. Please check PyPI if there is an official release.  -Kumar**
 
 A python interface to the `Akismet <http://akismet.com>`_ API.
 This is a web service for blocking SPAM comments to blogs - or other online 
