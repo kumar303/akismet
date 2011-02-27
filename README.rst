@@ -10,10 +10,6 @@ services.
 **This is a quick fix to get Akismet working with non-ascii Unicode
 data. Please check PyPI if there is an official release.  -Kumar**
 
-A python interface to the `Akismet <http://akismet.com>`_ API.
-This is a web service for blocking SPAM comments to blogs - or other online 
-services.
-
 You will need a Wordpress API key, from `wordpress.com <http://wordpress.com>`_.
 
 You should pass in the keyword argument 'agent' to the name of your program,
