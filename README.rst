@@ -1,4 +1,4 @@
-:Version: 0.2.0
+:Version: 0.2.1
 :Copyright: Michael Foord 2005-2009
 :Home: http://www.voidspace.org.uk/python/modules.shtml#akismet
 :Akismet: http://akismet.com

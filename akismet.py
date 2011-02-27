@@ -63,7 +63,7 @@ if hasattr(socket, 'setdefaulttimeout'):
     # Set the default timeout on sockets to 5 seconds
     socket.setdefaulttimeout(5)
 
-__version__ = '0.2.0'
+__version__ = '0.2.1'
 
 __all__ = (
     '__version__',
