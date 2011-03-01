@@ -138,6 +138,12 @@ class Akismet(object):
         return resp
 
 
+    def _safeStr(self, val):
+        if isinstance(val, unicode):
+            val = val.encode('utf8', 'ignore')
+        return val
+
+
     def setAPIKey(self, key=None, blog_url=None):
         """
         Set the wordpress API key for all transactions.
@@ -309,9 +315,10 @@ class Akismet(object):
             raise APIKeyError("Your have not set an API key.")
         if data is None:
             data = {}
+        comment = self._safeStr(comment)
         for k, v in data.items():
             if isinstance(v, unicode):
-                data[k] = v.encode('utf8', 'ignore')
+                data[k] = self._safeStr(v)
         if build_data:
             self._build_data(comment, data)
         if 'blog' not in data:
